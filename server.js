@@ -35,6 +35,9 @@ app.use('/login',login);
 const register = require('./CRUD/register.js')
 app.use('/register',register);
 
+// const upload = require('./CRUD/upload.js')
+// app.use('/upload',upload);
+
 // 查看API
 const showApi = require('./CRUD/showApi.js')
 app.use('/showApi',showApi);
